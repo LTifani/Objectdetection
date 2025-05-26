@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Bcrypt-Flask
+Flask-WTF
+werkzeug
+requests
+ultralytics
+opencv-python
