@@ -1,0 +1,19 @@
+# train: ../yolo_dataset/train
+# val: ../yolo_dataset/val
+# test: ../yolo_dataset/test
+
+train: ../yolo_dataset_mapped/train
+val: ../yolo_dataset_mapped/val
+test: ../yolo_dataset_mapped/test
+nc: 7
+names: ["Balcony", "Facade Window", "Chimney", "Dormer", "Roof Window", "Small Artifact", "Others"]
+task: segment
+# nc: 27
+# names: ['Annex Garage', 'Annex Living Space', 'Annex Other', 'Balcony', 'Basement Entrance', 'Basement Window', 'Chimney', 'Dormer', 'DriveIn Hole', 'Facade Window', 'Fender', 'Garage Door', 'Garden Terrace', 'HVAC', 'House Door', 'Ladder', 'PV Panel', 'Roof Terrace', 'Roof Window', 'Satellite Dish', 'Skylight', 'Small Artifact', 'Solar Panel', 'Umbrella Door', 'Unknown Object', 'White Pipe', 'Wintergarden']
+
+roboflow:
+  workspace: crediumvision
+  project: oblique-instance-segmentation
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/crediumvision/oblique-instance-segmentation/1
