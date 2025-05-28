@@ -1,3 +1,9 @@
 *.jpg
+*.png
 *.jpeg
+*.pt
 *.txt
+*.csv
+*.yaml
+*.cache
+*.pyc
